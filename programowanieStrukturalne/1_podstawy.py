@@ -41,3 +41,9 @@ print(pierwszyZnak)
 
 ostatniZnak = nazwisko[len(nazwisko) - 1]
 print(ostatniZnak)
+
+nazwisko = "Kowalski"
+print(nazwisko[0]) #K
+print(nazwisko[0:3]) #Kow
+print(nazwisko[:-2]) #Kowals
+print(nazwisko[:-2:2]) #Kwl
